@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 24%;
+
+    height: 50px;
+    background-color: red;
+    color: white;
+}
+
+.header-izq {
+    display: flex;
+    padding-left: 10px;
+    gap: 10px;
+
+    margin-left: 5%;
+}
+
+.header-izq >input {
+    display: flex;
+    align-items: flex-start;
+    height: 20px;
+    
+    
+}
+
+
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+    margin: 3px;
+    padding: 12px;
+    border-radius: 15px;
+
+    background-color: rgb(255, 145, 145);
+    color: white;
+
+}
+
+
+
+.section-rojo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 81px;
+    padding-top: 0px; 
+    
+
+    background-color: red;
+    color: white;
+}
+
+.primera-seccion {
+    padding-top: 0px;
+}
+
+.segunda-seccion {
+    padding-top: 70px ;
+}
+
+.header-centro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: black;
+    color: white;
+}
+
+.section-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.section-negro {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 43px;
+}
+
+.input-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+    gap: 4px;
+}
+
+.icono-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 100px;
+    background-color: black;
+    color: white;
+}
